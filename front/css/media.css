@@ -98,6 +98,9 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .screen5 .right .video {
+    height: 50vw;
+  }
   .screen1_wrap {
     padding-bottom: 60px;
     width: calc(100% + 15px);
@@ -245,12 +248,18 @@
   .screen4 .title_block {
     width: 100%;
     text-align: start;
+    margin-bottom: 30px;
+  }
+  .content img {
+    margin-bottom: 10px;
   }
   .screen6 {
     display: flex;
     grid-template-columns: unset;
     grid-column-gap: unset;
     grid-row-gap: unset;
+    width: 100%;
+    overflow-x: scroll;
     align-items: flex-start;
   }
   .screen6 .row {
