@@ -23,6 +23,11 @@
 
 .shopping_block {
   margin: -130px auto 0;
+  width: 100%;
+}
+
+.screen3 {
+  width: 100%;
 }
 
 .flex_blocks .block {
@@ -34,7 +39,7 @@
   width: 80%;
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 33px auto;
   .heading{
   	margin-bottom: 20px;
   }
@@ -257,6 +262,10 @@
 }
 
 @media screen and (max-width: 768px){
+
+.screen6 .row .top_part .heading_card {
+  width: 100%;
+}
 
 .screen1_wrap .center {
   width: 100%;
@@ -514,6 +523,18 @@
 
 .main_text.desktop{
 	display: none;
+}
+
+.heading{
+  font-size: 28px;
+}
+
+.main_heading {
+  font-size: 28px;
+}
+
+.yellow_heading {
+  font-size: 20px;
 }
 
 }
